@@ -2,6 +2,10 @@
     background-color: var(--colorBg) !important;
 }
 
+#switch::-webkit-scrollbar {
+    display: none;
+}
+
 #panels-container.left #switch,
 #switch>button:focus:not(active) {
     box-shadow  : none !important;
